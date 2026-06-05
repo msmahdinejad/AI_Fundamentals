@@ -11,10 +11,11 @@ This repository is the consolidated final portfolio for the **Fundamentals and A
 
 The full technical report is the primary documentation for the project:
 
-- [Rendered PDF report](docs/AI_Fundamentals_Report.pdf)
-- [LaTeX source report](docs/AI_Fundamentals_Report.tex)
+- [Rendered PDF report](AI_Fundamentals_Report.pdf)
 
 The report includes a project introduction, team information, reviewed source material, detailed phase-by-phase explanations, algorithm formulas, implementation notes, selected figures/screenshots from the original phase documents, cleanup decisions, and execution instructions.
+
+The LaTeX source and extracted figure files are kept locally under `docs/` for editing and re-rendering, but they are intentionally ignored and not published to GitHub.
 
 ## What This Repository Contains
 
@@ -22,12 +23,9 @@ The original course work was submitted as separate GitHub Classroom repositories
 
 ```text
 AI_Fundamentals/
+├── AI_Fundamentals_Report.pdf
 ├── README.md
 ├── requirements.txt
-├── docs/
-│   ├── AI_Fundamentals_Report.tex
-│   ├── AI_Fundamentals_Report.pdf
-│   └── figures/
 └── projects/
     ├── phase-01-search-regression-annealing/
     ├── phase-02-mdp-reinforcement-learning/
@@ -389,24 +387,25 @@ python llm_solver.py
 
 ## Documentation Rendering
 
-The report source is:
+The rendered report is stored at the repository root:
+
+```text
+AI_Fundamentals_Report.pdf
+```
+
+The local LaTeX source is kept outside Git tracking at:
 
 ```text
 docs/AI_Fundamentals_Report.tex
 ```
 
-Render it with:
+Render it locally with:
 
 ```bash
 cd docs
 pdflatex AI_Fundamentals_Report.tex
 pdflatex AI_Fundamentals_Report.tex
-```
-
-The rendered PDF is already included at:
-
-```text
-docs/AI_Fundamentals_Report.pdf
+move AI_Fundamentals_Report.pdf ..\AI_Fundamentals_Report.pdf
 ```
 
 ## Cleanup Decisions
@@ -418,6 +417,7 @@ The consolidated repository intentionally excludes:
 - generated screenshots,
 - Python cache folders,
 - LaTeX auxiliary files,
+- local LaTeX source and extracted figure files,
 - temporary `logic.pl`,
 - hardcoded API credentials.
 
@@ -428,8 +428,7 @@ It intentionally preserves:
 - icons,
 - Pygame environment assets,
 - PaintBattle binary enemy agents,
-- LaTeX report source,
-- rendered PDF report.
+- rendered PDF report at the repository root.
 
 ## Verification Performed
 

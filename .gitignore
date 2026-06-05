@@ -24,6 +24,8 @@ logic.pl
 .ipynb_checkpoints/
 
 # LaTeX build artifacts
+docs/AI_Fundamentals_Report.tex
+docs/figures/
 *.aux
 *.bbl
 *.bcf
