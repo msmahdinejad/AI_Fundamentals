@@ -15,8 +15,6 @@ The full technical report is the primary documentation for the project:
 
 The report includes a project introduction, team information, reviewed source material, detailed phase-by-phase explanations, algorithm formulas, implementation notes, selected figures/screenshots from the original phase documents, cleanup decisions, and execution instructions.
 
-The LaTeX source and extracted figure files are kept locally under `docs/` for editing and re-rendering, but they are intentionally ignored and not published to GitHub.
-
 ## What This Repository Contains
 
 The original course work was submitted as separate GitHub Classroom repositories. This repository reorganizes them into a single portfolio:
