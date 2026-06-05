@@ -4,8 +4,8 @@ This repository is the consolidated final portfolio for the **Fundamentals and A
 
 ## Team Members
 
-- Mohammad Saleh Mahdinejad
-- Fatemeh Sayadzadeh
+- [Mohammad Saleh Mahdinejad](https://github.com/msmahdinejad)
+- [Fatemeh Sayadzadeh](https://github.com/Ftm-Sayadzadeh)
 
 ## Main Documentation
 
