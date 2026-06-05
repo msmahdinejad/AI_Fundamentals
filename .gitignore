@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local source clones used during consolidation
+_source_repos/
+
+# Generated runtime outputs
+outputs/
+training_plots/
+screenshots/
+logic.pl
+*.log
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
