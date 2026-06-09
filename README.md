@@ -1,4 +1,4 @@
-# AI Fundamentals Portfolio
+# AI Fundamentals Portfolio 
 
 This repository is the consolidated final portfolio for the **Fundamentals and Applications of Artificial Intelligence** course. It combines five separate assignment repositories into one clean, documented, and runnable project collection.
 
